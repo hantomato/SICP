@@ -1,0 +1,26 @@
+(define (fibonacci n)
+    (cond   ((= n 0) 0)
+            ((= n 1) 1)
+            (else (+ (fibonacci (- n 1)) (fibonacci (- n 2))))
+    )
+        
+)
+
+;test
+(display (fibonacci 0))
+(newline)
+(display (fibonacci 1))
+(newline)
+(display (fibonacci 2))
+(newline)
+(display (fibonacci 3))
+(newline)
+(display (fibonacci 4))
+(newline)
+(display (fibonacci 5))
+(newline)
+(display (fibonacci 6))
+(newline)
+(display (fibonacci 7))
+(newline)
+
