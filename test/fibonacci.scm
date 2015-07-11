@@ -7,20 +7,17 @@
 )
 
 ;test
-(display (fibonacci 0))
-(newline)
-(display (fibonacci 1))
-(newline)
-(display (fibonacci 2))
-(newline)
-(display (fibonacci 3))
-(newline)
-(display (fibonacci 4))
-(newline)
-(display (fibonacci 5))
-(newline)
-(display (fibonacci 6))
-(newline)
-(display (fibonacci 7))
-(newline)
-
+> (fibonacci 0)
+0
+> (fibonacci 1)
+1
+> (fibonacci 2)
+1
+> (fibonacci 3)
+2
+> (fibonacci 4)
+3
+> (fibonacci 5)
+5
+> (fibonacci 6)
+8
