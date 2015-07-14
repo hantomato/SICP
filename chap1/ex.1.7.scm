@@ -21,17 +21,11 @@
 (define (square x)
 	(* x x))
 
-;new-if
-(define (new-if predicate then-clause else-clause)
-	(cond 	(predicate then-clause)
-			(else else-clause)))
-;test
-(sqrt 9)
-(sqrt 4)
+(sqrt 1)
 (sqrt 2)
-
-(new-if (= 2 3) 0 5)
-(new-if (= 1 1) 0 5)
-
+(sqrt 3)
+(sqrt 10000)
+(sqrt 100000)
+(sqrt 1000000)
 
 
